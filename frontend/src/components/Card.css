@@ -1,0 +1,50 @@
+/* Talia BarZohar 318257060
+Sagi stav  316584622
+Noa danino 324012277 */
+.product_img {
+  height: 370px;
+}
+.card {
+  width: 18rem;
+  margin: 10px;
+}
+.card-title {
+  font-family: "Kalam", cursive;
+  color: #4c4c6d;
+}
+.card-text {
+  font-family: "Kalam", cursive;
+  color: #4c4c6d;
+}
+.button-1 {
+  background-color: #80558c;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #80558c;
+}

@@ -1,0 +1,27 @@
+/* Talia BarZohar 318257060
+Sagi stav  316584622
+Noa danino 324012277 */
+.products-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.products-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Adjust the number of tabs that will be displayed on the screen before the screen size */
+@media only screen and (max-width: 1200px) {
+  .products-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Adjust the number of tabs that will be displayed on the screen before the screen size */
+@media only screen and (max-width: 1000px) {
+  .products-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
